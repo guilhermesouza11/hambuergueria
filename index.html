@@ -9,7 +9,14 @@
 </head>
 <body>
     <div id="app">
-        <p>O meu nome é: {{ name }}</p>
+
+        <!-- Entendendo o Data Binding com Vue -->
+        <form id="app-form">
+            <input type="text" v-model="input_name" placeholder="Digite seu nome">
+            <input type="submit" value="Enviar" v-on:click="submitForm">
+        </form>
+
+        <p>O meu nome é: {{ name }} e eu tenho {{ age }} de idade!</p>
     </div>
 </body>
 </html>
