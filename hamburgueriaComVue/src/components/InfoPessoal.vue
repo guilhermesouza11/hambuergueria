@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Estou trabalhando no momento!</p>
+    <p>Estou trabalhando no momento.</p>
     <p>Estou usando as seguintes tecnologias:</p>
     <ul>
       <li>HTML</li>
